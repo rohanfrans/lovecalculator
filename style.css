@@ -1,0 +1,58 @@
+/* Basic styling for the Love Calculator */
+body {
+  background-color: #5a0201;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #fde5e0;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+  padding: 30px;
+  width: 350px;
+  font-style: italic;
+}
+
+h1 {
+  color:#5a0201;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1.5px solid #5a0201;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  font-style: italic;
+}
+
+button {
+  background-color: #5a0201;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 20px 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #e63939;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
